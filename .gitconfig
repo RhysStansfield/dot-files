@@ -1,0 +1,14 @@
+[user]
+	name = Rhys Stansfield
+	email = rhys@onlinesalesgrowth.com
+[credential]
+	helper = cache --timeout=3600
+[color]
+	ui = true
+[alias]
+	st = status
+	co = checkout
+        br = branch
+        hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+[push]
+	default = simple
